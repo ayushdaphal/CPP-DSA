@@ -1,0 +1,22 @@
+check for valid parenthesis 
+{[]}--> valid 
+{)}]--> not valid
+
+
+
+insert element at the bottom 
+7 1 4 5 --> present in stack with 5 as stack top , insert 9 in bottom (below 7)
+Approach:- keep poping the elements in the stack until u reach the stack empty condition 
+           at stack empty--> insert the element 
+           and then push in reverse order of which they were popped
+
+
+
+
+reverse a stack  --> stack top side mei rakho and then use recursion
+                    uppar aate hue start inserting at the bottom (upar wala logic)
+                    return answer
+
+
+
+
